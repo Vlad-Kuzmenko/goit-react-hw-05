@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.input {
+  color: #000;
+  border: 1px solid #000;
+  outline: transparent;
+  height: 40px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  width: 300px;
+}
+
+.input:hover {
+  border-color: #792c10;
+}
+
+input:focus {
+  border-color: #792c10;
+}
+
+.button {
+  display: block;
+  max-width: 150px;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #c6d6b0;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

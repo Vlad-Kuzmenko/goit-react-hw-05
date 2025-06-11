@@ -1,0 +1,26 @@
+.link {
+  display: block;
+  max-width: 150px;
+  color: #000;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #c6d6b0;
+  margin-bottom: 32px;
+}
+
+.link:hover,
+.link:active {
+  opacity: 0.8;
+}
+
+.infoTitle {
+  margin-bottom: 12px;
+}
+
+.linksList {
+  display: flex;
+  gap: 8px;
+}
